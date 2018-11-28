@@ -1,6 +1,6 @@
 # Pythonによるベイズ統計モデリング Oscaldo Martin 著 金子 武久 訳 共立出版
 
-せっせとjupyterでまとめた。[table of contents](https://github.com/jupyterlab/jupyterlab-toc)推奨。メインはBAP_note.ipynb
+せっせとjupyterでまとめた。[table of contents](https://github.com/jupyterlab/jupyterlab-toc)推奨。メインは[BAP_note.ipynb](https://github.com/yyoshiaki/BAP/blob/master/BAP_note.ipynb)か[nbviewer版(こっちのほうが軽い)](http://nbviewer.jupyter.org/github/yyoshiaki/BAP/blob/master/BAP_note.ipynb)
 
 ![gif](pymc_jup.mov.gif)
 

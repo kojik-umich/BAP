@@ -2,7 +2,7 @@
 
 せっせとjupyterでまとめた。[table of contents](https://github.com/jupyterlab/jupyterlab-toc)推奨。メインは[BAP_note.ipynb](https://github.com/yyoshiaki/BAP/blob/master/BAP_note.ipynb)か[nbviewer版(こっちのほうが軽い)](http://nbviewer.jupyter.org/github/yyoshiaki/BAP/blob/master/BAP_note.ipynb)
 
-![gif](pymc_jup.mov.gif)
+![gif](pymc_jup.gif)
 
 参考
 

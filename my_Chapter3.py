@@ -17,7 +17,7 @@ np.random.seed(123)
 x = np.random.gamma(2, 1, 1000)
 y = np.random.normal(0, 1, 1000)
 data = pd.DataFrame(data=np.array([x, y]).T, columns=['$\\theta_1$', '$\\theta_2$'])
-sns.jointplot(x='$\\theta_1$', y='$\\theta_2$', data=data, stat_func=None);
+sns.jointplot(x='$\\theta_1$', y='$\\theta_2$', data=data) #, stat_func=None);
 plt.savefig('img301.png', dpi=300, figsize=(5.5, 5.5))
 
 plt.figure()
@@ -37,7 +37,7 @@ with pm.Model() as model_g:
   mu = pm.Uniform('mu', 40, 75)
   sigma = pm.HalfNormal('sigma', sd=10)
   y = pm.Normal('y', mu=mu, sd=sigma, observed=data)
-  trace_g = pm.sample(1100, njobs=1)
+  trace_g = pm.sample(1100) #, njobs=1)
 
 chain_g = trace_g[100:]
 pm.traceplot(chain_g)
